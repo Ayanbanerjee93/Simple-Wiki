@@ -11,6 +11,27 @@ font-family: 'Spline Sans', sans-serif;*/
     margin: 0 auto;
 }
 
+body {
+    background-image: url(images/body-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+h2 {
+    font-family: 'Be Vietnam Pro';
+    padding-left: 9px;
+    color: tomato;
+    font-weight: bolder;
+}
+
+h5 {
+    font-family: 'Roboto Condensed';
+    padding-left: 10px;
+    color: red;
+}
+
 
 /* --------------------------------------------------Navbar */
 
@@ -27,10 +48,9 @@ font-family: 'Spline Sans', sans-serif;*/
 }
 
 .nav-right {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     width: 5%;
-    background-image: linear-gradient(tomato, orange);
 }
 
 .nav-left {
@@ -62,10 +82,35 @@ font-family: 'Spline Sans', sans-serif;*/
 
 /* ------------------------------------------------first section starts here */
 
+.head-para-decor img {}
+
 .head-section {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.head-para-decor {
+    margin-top: 40px;
+    height: 80%;
+    width: 80%;
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764);
+    box-shadow: 10px 10px 8px #888888;
+    border-left: 8px solid;
+    border-image: linear-gradient(white, red, black, blue, white);
+    border-image-slice: 1;
+}
+
+#head-sec-line-decor {
+    color: white;
+    text-align: center;
+}
+
+#moving-banner-text {
+    font-family: 'Spline Sans';
 }
 
 .right-div {
@@ -86,16 +131,66 @@ font-family: 'Spline Sans', sans-serif;*/
 }
 
 
+/* ----------------------------------------------Moving banner section */
+
+.moving-banner {
+    background-image: linear-gradient(to right, tomato, white, green);
+}
+
+
 /* ---------------------------------------------Card section starts --------------- */
 
-.card-one {}
+.cards {
+    margin-top: 200px;
+    display: flex;
+    /* background-color: rgb(16, 17, 17); */
+}
 
-.card-one:hover {}
+.all-card-img {
+    height: 150px;
+    width: 250px;
+}
 
-.card-two {}
+.all-cards {
+    background-color: #fde7f9;
+    background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+    width: 250px;
+    height: 485px;
+    text-align: left;
+    box-shadow: 10px 10px 8px #888888;
+}
 
-.card-two:hover {}
+.all-cards:hover {
+    box-shadow: 10px 10px 8px #d1d0d0;
+}
 
-.card-three {}
+.all-cards p {
+    padding: 10px;
+}
 
-.card-three:hover {}
+.button-link {
+    text-decoration: none;
+    font-family: 'Spline Sans';
+    background-image: linear-gradient(tomato, orange);
+    padding: 1px 21px;
+    margin-left: 82px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 1px;
+    color: white;
+}
+
+.button-link:hover {
+    box-shadow: 1px 2px 4px #d1d0d0;
+    color: black;
+}
+
+
+/* ------------------------------------------footer starts here--------- */
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
